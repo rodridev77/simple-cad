@@ -1,0 +1,167 @@
+  
+  .header-top-bar {
+    height: 5px;
+    background-color: #eb194b;
+  }
+  
+  a:hover {
+    color: #eb194b!important;
+  }
+  
+  .btn-login {
+    text-align: right;
+  }
+  
+  .hello-user {
+    color: #eb194b;
+  }
+  
+  .dash-topbar-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .welcome-user {
+    text-decoration: none!important;
+    font-weight:bold;
+  }
+  
+  .area-link {
+    width: 100%;
+  }
+  
+  .area-link > h3 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .page-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .page-icon > i {
+    color: orange;
+    font-size: 32px;
+    padding-top: 10px;
+  }
+  
+  .box-form {
+    display: flex;
+    justify-content:center;
+    font-size:16px;
+    font-weight:600;
+    color:rgba(1,1,1,.7);
+  }
+  
+  .input-form-client, .input-form-user {
+    font-size:16px;
+    font-weight:600;
+    color:rgba(1,1,1,.5);
+  }
+  
+  #btn-create-client, #btn-create-user, #btn-create-property, #btn-create-sale, #btn-update-property {
+    width: 50%!important;
+    border-radius:25px;
+    font-size:16px;
+    font-weight:bold;
+  }
+  
+  #client-form-delete, #user-form-delete {
+    float:right;
+  }
+  
+  .delete-client, .delete-user, .edit-client {
+    cursor: pointer;
+    border:none;
+    background-color:transparent;
+  }
+  
+  .client-delete-icon, .user-delete-icon, .show-property {
+    color: #dc3545;
+    font-size:20px;
+    margin-top:10px
+  }
+  
+  .opacity-btn {
+    transition: 0.2s opacity;
+  }
+  
+  .opacity-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .user-table > td, .client-table > td, .property-table > td, .sale-table > td {
+    text-align: center!important;
+    vertical-align: middle;
+  }
+  
+  .table-cell-sale {
+    text-align: end;
+  }
+
+  #sale-approve-btn:hover {
+    color: #fff!important;
+  }
+  
+  .pending {
+    background-color: #ffa500;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .perfomed {
+    background-color: 9#2e8b57;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .refused {
+    background-color: #9c0000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  
+  }
+  
+  .property-item 
+  {   
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #fff;
+  }
+   
+  .product-container-title > h2
+  {
+      color: #004587;
+      font-weight: 700;
+      font-size: 1.5rem;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .price-box p 
+  {
+      text-align: center;
+  }
+  
+  .button-buy-component button
+  {
+      height: 40px;
+      margin: 0;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+   #btn-update {
+     margin-top: 10px!important;
+   }
+  }
+  
